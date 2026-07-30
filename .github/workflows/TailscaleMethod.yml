@@ -20,7 +20,7 @@ defaults:
 jobs:
   rdp:
     runs-on: windows-latest
-    timeout-minutes: 370
+    timeout-minutes: 3800
     env:
       RDP_USER: "user"
       RDP_PASS: "Pass1234"
